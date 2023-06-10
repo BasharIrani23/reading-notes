@@ -22,7 +22,7 @@
 3-Stay motivated and passionate over the long term.
 ***
 
-##A kinder, gentler philosophy of success
+## A kinder, gentler philosophy of success
 ### The video emphasizes the most of ethical problems that exist within society and how to overcome most of these problems.
 
 1-Define success on your terms: Reject societal pressures or predefined notions of success. Instead, set your own meaningful goals and strive to achieve them in a way that aligns with your values and aspirations.
