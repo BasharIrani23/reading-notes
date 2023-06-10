@@ -12,3 +12,5 @@ Node.js runs the JavaScript code outside of the browser
 ## 4. What is Node used for?
 Used for building fast and scalable server-side applications, It provides a fast and scalable environment for handling HTTP requests
 
+## Things I want to know more about 
+being expert in bulding server-side application , so improve my backend develpoer skills
