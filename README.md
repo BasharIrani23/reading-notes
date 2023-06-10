@@ -11,5 +11,5 @@
 ## Code 401 - Advanced Software Development
 
 ### First Week 
-[Class 01a](https://github.com/BasharIrani23/reading-notes/blob/main/Week1/Class01a.md)
+[(Class 01a)](https://github.com/BasharIrani23/reading-notes/blob/main/Week1/Class01a.md)
 
