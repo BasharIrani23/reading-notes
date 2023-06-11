@@ -30,7 +30,22 @@ To check it , i have to type npm -v in my terminal , and the version is running 
 
 # What is TDD?
 ## 1-Explain why tests are important. Please explain as though I were your non technical elder.
-In general , tests are safety nets or quality control measures for the software we develop,
+In general , tests are safety nets or quality control measures for the software we develop.
 #### why it is important ?
+Tests help to ensure that the software works as intended and behaving correctly under different scenarios.
+
+## 2-What are three expected benefits of testing
 - Collaboration: Tests also help developers work together more effectively. When different people are working on the same project, tests provide a common language to understand and validate the software's behavior.
 - Refactoring Confidence: Refactoring means making changes to the code without changing its external behavior. Tests give us the confidence to make these changes by providing a safety net.
+- Preventing Mistakes: Tests can catch mistakes or errors in our code before they cause bigger problems.
+
+## 3-Name at lest 2 individual pitfalls and at least 2 team pitfalls commonly encountered while writing tests.
+#### Individual pitfalls 
+- Forgetting to run tests frequently
+- Writing too many tests at once
+- Writing tests that are too large or coarse-grained
+#### Team pitfalls
+- Partial adoption
+- Poor maintenance of the test suite
+- Abandoned test suite
+- 
