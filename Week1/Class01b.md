@@ -61,7 +61,7 @@ on the other hand , the  decision of when to release the software to production 
 
 ## 3-Explain how GitHub fits into this process assuming the listener comes from a non-technical background
 GitHub serves as a collaboration platform. Allows developers to integrate their work, test and deploy software.
-
+***
 # Reflection
 ### What are your learning goals after reading and reviewing the class README?
 Describe and Define
