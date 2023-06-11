@@ -48,4 +48,28 @@ Tests help to ensure that the software works as intended and behaving correctly 
 - Partial adoption
 - Poor maintenance of the test suite
 - Abandoned test suite
-- 
+*** 
+# CI/CD
+## 1- What are three benefits of Continuous Integration?
+- Reduced Integration Problems
+- Increase Code Confidence
+- Early Detection of Issues
+## 2-What is the difference between Continuos Delivery and Continuous Deployment?
+While they are similar in concept, there is a key difference between the them 
+The Automation deploy of the production , the **CDep** allowing software changes to be automatically deployed to production without manual intervention.
+on the other hand , the  decision of when to release the software to production in the **CD** is made manually by the development team or stakeholders.
+
+## 3-Explain how GitHub fits into this process assuming the listener comes from a non-technical background
+GitHub serves as a collaboration platform. Allows developers to integrate their work, test and deploy software.
+
+# Reflection
+### What are your learning goals after reading and reviewing the class README?
+Describe and Define
+- Node Modules
+- Code Modularization
+- Express Middleware
+- HTTP Status Codes
+- TDD and Testing
+- Write an express API server
+- Incorporate application level middleware
+- Properly test an express server
