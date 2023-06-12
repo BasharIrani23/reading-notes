@@ -12,5 +12,7 @@
 
 ### First Week 
 [(Class 01a Node js Ecosystem)](https://github.com/BasharIrani23/reading-notes/blob/main/Week1/Class01a.md).
+
 [(Class 01 b NodeJS and Express)](https://github.com/BasharIrani23/reading-notes/blob/main/Week1/Class01b.md).
+
 [(Data Structures and Algorithms)](https://github.com/BasharIrani23/reading-notes/blob/main/Week1/DSA.md).
