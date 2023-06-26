@@ -10,7 +10,7 @@ Claims are expected in which structural component of a JWT?
 
 ### 3-Claims are expected in the payload component of a JWT.
 Claims are expected in the payload component of a JWT. The payload contains statements about an entity and additional data
-
+***
 # Are JWTs Secure?
 ### 1-If I get a JWT and I can decode the payload, how can we call that secure?
 Just being able to decode the payload of a JWT doesn’t automatically make it secure. Security depends on how well the secret key used to sign the token is protected
@@ -21,7 +21,7 @@ When sending a JWT, both the sender and receiver need to know the secret key. It
 ### 3-Explain how concatenated content and secret can be sent and received securely to a non-technical recruiter.
 The content and secret key should be shared through a secure channel. The recruiter should be instructed to store the secret key in a secure location, preferably offline and it's important 
 to emphasize the need to keep the secret key confidential and not share it with anyone else.
-
+***
 #JWTs Explained
 ### 1- Why use JWT?
 JWTs provide a secure way for authentication, authorization, and secure information exchange, making them a preferred choice in web and application development.
