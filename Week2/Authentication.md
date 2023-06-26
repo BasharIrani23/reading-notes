@@ -7,7 +7,7 @@ When it comes to safely hashing and storing a password, here's how I would expla
 - Secure Algorithm: We use a strong and slow algorithm to hash the password securely.
 - Storage: We store the hashed password in a database.
 By using these techniques, we make it difficult for attackers to retrieve the original password even if they gain access to the stored data.
-
+***
 ### 2-What is Bcrypt?
 
 bcrypt is a widely used and secure cryptographic hashing algorithm designed for password hashing. It is specifically designed to be slow and computationally intensive, making it difficult for attackers to quickly crack hashed passwords through brute-force or dictionary attacks.
@@ -29,7 +29,7 @@ In the header of a Basic Authentication request, the "Authorization" property is
 - 
 ### 3-How are username:password in Basic Auth encoded?
 In Basic Authentication, the username and password are encoded using Base64 encoding. 
-
+***
 # OWASP auth cheatsheet
 ### 1- Define the authentication process to a non-technical recruiter.
 Authentication is the process of verifying the identity of a user or entity to ensure they are who they claim to be. 
