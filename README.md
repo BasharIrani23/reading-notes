@@ -17,6 +17,7 @@
 
 [(Data Structures and Algorithms)](https://github.com/BasharIrani23/reading-notes/blob/main/Week1/DSA.md).
 
+### Week 2
 [(Authentication)](https://github.com/BasharIrani23/reading-notes/blob/main/Week2/Authentication.md)
 
 [(Bearer Authorization)](https://github.com/BasharIrani23/reading-notes/blob/main/Week2/Bearer%20Authorization.md)
