@@ -1,5 +1,5 @@
 
-#Intro to JWT
+# Intro to JWT
 ### 1-What is a JSON Web Token (JWT)?
 JWT is a compact and self-contained way of transmitting information between parties as a JSON object.
 
