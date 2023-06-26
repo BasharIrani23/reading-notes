@@ -16,3 +16,7 @@
 [(Class 01 b NodeJS and Express)](https://github.com/BasharIrani23/reading-notes/blob/main/Week1/Class01b.md).
 
 [(Data Structures and Algorithms)](https://github.com/BasharIrani23/reading-notes/blob/main/Week1/DSA.md).
+
+[(Authentication)](https://github.com/BasharIrani23/reading-notes/blob/main/Week2/Authentication.md)
+
+[(Bearer Authorization)](https://github.com/BasharIrani23/reading-notes/blob/main/Week2/Bearer%20Authorization.md)
