@@ -23,3 +23,6 @@
 [(Bearer Authorization)](https://github.com/BasharIrani23/reading-notes/blob/main/Week2/Bearer%20Authorization.md)
 
 [(Access Control (ACL))](https://github.com/BasharIrani23/reading-notes/blob/main/Week2/Access-Control.md)
+
+
+[(Authorization/Authentication)](https://github.com/BasharIrani23/reading-notes/blob/main/Week2/Authorization+Authentication.md)
