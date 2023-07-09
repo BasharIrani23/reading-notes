@@ -26,3 +26,6 @@
 
 
 [(Authorization/Authentication)](https://github.com/BasharIrani23/reading-notes/blob/main/Week2/Authorization+Authentication.md)
+
+### Week 3 
+[(Event Driven Applications)](https://github.com/BasharIrani23/reading-notes/blob/main/Week3/Event-Driven.md)
