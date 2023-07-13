@@ -31,3 +31,5 @@
 [(Event Driven Applications)](https://github.com/BasharIrani23/reading-notes/blob/main/Week3/Event-Driven.md)
 
 [(Socket.io)](https://github.com/BasharIrani23/reading-notes/blob/main/Week3/Socket.io.md)
+
+[(Message Queues)](https://github.com/BasharIrani23/reading-notes/blob/main/Week3/Message-Queues.md)
