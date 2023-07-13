@@ -20,9 +20,9 @@ o leave a channel you call leave in the same fashion as join usin *socket.leave(
 A namespace is a feature that allows you to create separate communication channels or namespaces on top of a single Socket.IO connection 
 or it's a a communication channel that allows you to split the logic of your application over a single shared connection (also called "multiplexing").
 ### 2-Each namespace potentially has its own what? (hint: 3 things)
--Sockets
--Rooms
--Connections
+- Sockets
+- Rooms
+- Connections
 ### 3-Discuss a possible use case for separate namespaces
 By using separate namespaces for each organization, you can maintain data separation, customize communication logic, and provide a tailored real-time collaboration experience for each organization within your multi-tenant application.
 
