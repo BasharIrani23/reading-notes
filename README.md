@@ -37,3 +37,4 @@
 ### Week 4
 [(S3 and Lambda)](https://github.com/BasharIrani23/reading-notes/blob/main/Week4/S3%20and%20Lambda.md)
 
+[(API, Dynamo and Lambda)](https://github.com/BasharIrani23/reading-notes/blob/main/Week4/Dynamo-%20and-Lambda.md)
