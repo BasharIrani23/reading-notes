@@ -8,7 +8,7 @@ It serves as the starting point for serverless applications and makes it simple 
 
 ### 3.How does API Gateway integrate with other AWS services?
 It can interface with Amazon S3 Links to an external website and directly connect to AWS Lambda functions to run backend functionality.
-
+***
 ## AWS API Gateway
 1.What are the some benefits of using Amazon API Gateway?
 - Simple API creation and administration.
@@ -16,7 +16,7 @@ It can interface with Amazon S3 Links to an external website and directly connec
 2.What two API types might you choose from?
 REST APIs
 WebSocket APIs
-
+***
 ## AWS DynamoDB Guide
 ### 1.What is DynamoDB?
 AWS offers a service for NoSQL databases
@@ -24,12 +24,13 @@ For applications requiring flexible data models, it offers high availability and
 
 ### 2.Under what circumstances would you recommend DynamoDB over MongoDB?
 If you want to avoid managing infrastructure and need automatic scaling, then yes. 
-
+***
 ## AWS DynamoDB
 ### 1.Explain to a non-technical friend how DynamoDB works.
 
 Data is stored and retrieved through DynamoDB, an AWS database service. Similar to a digital table, you can store information there and readily access it later.
 Links leading to other websites.Dynamoose
+***
 ## Dynamoose
 ### 1-What is Dynamoose?
 an npm package that provides an easier way to work with DynamoDB in Node.js applications.
