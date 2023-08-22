@@ -14,11 +14,14 @@
 
 # State: A Component’s Memory
 1.What is one reason a local variable isn’t sufficient for managing a React component?
+
 Local variables don't persist or trigger re-renders in React.
 
 2.What is the argument to the useState hook, and what are the two parts of its return array?
+
 - The current state value.
 -A function to update the state value.
 
 3.How can Component A access state from Component B?
+
 To make the state accessible from on component to another , the state could be shared using *props*, passed down to a children.
