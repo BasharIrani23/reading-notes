@@ -20,7 +20,8 @@ Local variables don't persist or trigger re-renders in React.
 2.What is the argument to the useState hook, and what are the two parts of its return array?
 
 - The current state value.
--A function to update the state value.
+  
+- A function to update the state value.
 
 3.How can Component A access state from Component B?
 
