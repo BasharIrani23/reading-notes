@@ -1,6 +1,7 @@
 # Advanced State with Reducers
 1- What is the motivation for adding a reducer?
 
+
 The motivation for introducing a reducer is to streamline complexity and consolidate all logic within a single, easily accessible domain. Integrating a reducer facilitates a more controlled and foreseeable approach to state management, particularly when updates to the state entail intricate decision-making processes.
 
 2- What are actions in the context of a reducer? How are they different than setting state directly?
