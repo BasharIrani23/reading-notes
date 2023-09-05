@@ -1,6 +1,6 @@
-How do useReducer and useContext work together to simplify state management in a React application? (At least two paragraphs of prose.)
+# How do useReducer and useContext work together to simplify state management in a React application? (At least two paragraphs of prose.)
 
-# Simplifying Complex Projects:
+### Simplifying Complex Projects:
 - When used together, useReducer and useContext can greatly simplify the codebase of complex React projects:
 
 - Centralized State Management: useReducer helps centralize and manage application state, making it easier to reason about how state changes occur and maintain a clear separation of concerns.
