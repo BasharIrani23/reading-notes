@@ -83,4 +83,4 @@ react-cookies is another popular library for managing cookies in React applicati
 ### 3-Which library would you prefer? Why?:
 
 The choice between react-cookie and react-cookies largely depends on your specific requirements and personal preferences. 
-
+I would prefer react-cookie. Its hooks support, server-side rendering utilities, and the backing of a known entity (reactivestack) make it a slightly more appealing choice
