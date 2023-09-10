@@ -1,10 +1,9 @@
 # What is Role Based Access Control (RBAC)?
 ### 1- What is Role Based Access Control (RBAC)?
 
-Role-Based Access Control (RBAC): Role-Based Access Control (RBAC) is a method of regulating access to computer or network resources based on the roles of individual users within an organization. In RBAC, permissions are associated with roles, and users are assigned appropriate roles. This ensures that only users with the necessary permissions can access particular resources or perform specific tasks.
+Role-Based Access Control (RBAC): is a method of regulating access to computer or network resources based on the roles of individual users within an organization. In RBAC, permissions are associated with roles, and users are assigned appropriate roles. This ensures that only users with the necessary permissions can access particular resources or perform specific tasks.
 
 ### 2- Share some an example of RBAC including all possible CRUD operations and correlating roles.
-Example of RBAC with CRUD Operations:
 
 Imagine a library management system. Different users interact with the system, each having specific roles. Here are the roles and their permissions:
 
@@ -33,17 +32,15 @@ The above roles clearly define who can perform what operations on the system, ma
 
 ### 3-What are the Benefits of RBAC?
 
-Benefits of RBAC:
+*Enhanced Security*: RBAC ensures that only authorized users can access specific resources, limiting the potential for malicious or inadvertent data breaches.
 
-Enhanced Security: RBAC ensures that only authorized users can access specific resources, limiting the potential for malicious or inadvertent data breaches.
+*Efficient Access Management*: RBAC reduces the complexity of managing individual user permissions. When a user's role within an organization changes, administrators simply change the user's role in the system, automatically updating their permissions.
 
-Efficient Access Management: RBAC reduces the complexity of managing individual user permissions. When a user's role within an organization changes, administrators simply change the user's role in the system, automatically updating their permissions.
+*Regulatory Compliance*: By controlling who can access what, organizations can ensure they comply with data protection regulations, which often mandate strict controls over who can access certain types of data.
 
-Regulatory Compliance: By controlling who can access what, organizations can ensure they comply with data protection regulations, which often mandate strict controls over who can access certain types of data.
+*Operational Efficiency*: When permissions are tied to roles rather than individual users, it streamlines administrative processes. Users can be onboarded or moved between roles more quickly and efficiently.
 
-Operational Efficiency: When permissions are tied to roles rather than individual users, it streamlines administrative processes. Users can be onboarded or moved between roles more quickly and efficiently.
-
-Reduced Administrative Work: RBAC can decrease the overhead of managing individual user permissions, reducing the potential for errors and ensuring consistent application of security policies.
+*Reduced Administrative Work*: RBAC can decrease the overhead of managing individual user permissions, reducing the potential for errors and ensuring consistent application of security policies.
 
 Auditing and Monitoring: With RBAC, auditing and monitoring become more straightforward. Organizations can quickly review and monitor the actions of users based on their roles, ensuring accountability and compliance with internal policies and external regulations.
 
