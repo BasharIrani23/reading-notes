@@ -22,27 +22,35 @@ Our dynamic API is like that universal remote. No matter what kind of data (like
 
 So, in simple words, we've made a super-smart system that can work with any data we give it, much like a universal remote can work with any device.
 *** 
+### 1-Describe how you would use middleware to implement basic and bearer auth.
 # Review Auth Server Build
 
-### 1-Describe how you would use middleware to implement basic and bearer auth.
 
 Middleware functions are functions that have access to the request object (req), the response object (res), and the next function in the application’s request-response cycle. Middleware allows us to intercept or modify requests before they reach their intended route handlers.
 
 *Basic Authentication:*
 
 - The client sends a request with an Authorization header containing the word Basic followed by a space and a base64-encoded username:password string.
+
 - The BasicAuth middleware decodes the base64 string to retrieve the original username and password.
+
 - Using the provided username, it queries the database to retrieve the corresponding user.
+
 - If the user is found, it checks the provided password against the stored hashed password in the database.
+
 - If the credentials are valid, the user is considered authenticated and the request can proceed. If not, an authentication error is sent back.
 
 *Bearer Authentication:*
 
 After the user logs in, the server provides a token (often JWT or similar).
 - In subsequent requests, the client includes this token in the Authorization header with the prefix Bearer.
+
 - The BearerAuth middleware extracts this token and verifies it (checks its signature, expiry date, etc.).
+
 - If the token is valid, the middleware extracts user information from it, and the user is considered authenticated.
+
 - If the token is invalid, an authentication error is returned.
+
 - In both cases, if authentication is successful, we can attach the user object or relevant user details to the request object (req.user) to be used in subsequent middleware or route handlers.
 
 ### 2-Describe the handshake necessary to implement OAuth.
