@@ -14,14 +14,15 @@ Create: Can add new books to the system.
 Read: Can view the list and details of all books.
 Update: Can edit the details of books or mark them as borrowed/returned.
 Delete: Can remove books from the system if they're damaged or lost.
+
 Member:
 
 Create: Can register for new borrowing requests.
 Read: Can view the list of books and their availability. Can also view their borrowing history.
 Update: Can renew borrowed books.
 Delete: Typically, members don't have deletion rights in this context.
-Guest:
 
+Guest:
 Create: No creation rights.
 Read: Can view the list of books but not their detailed status.
 Update: No update rights.
