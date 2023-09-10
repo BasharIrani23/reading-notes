@@ -25,7 +25,6 @@ So, in simple words, we've made a super-smart system that can work with any data
 # Review Auth Server Build
 
 ### 1-Describe how you would use middleware to implement basic and bearer auth.
-How would you use middleware to implement basic and bearer auth?
 
 Middleware functions are functions that have access to the request object (req), the response object (res), and the next function in the application’s request-response cycle. Middleware allows us to intercept or modify requests before they reach their intended route handlers.
 
