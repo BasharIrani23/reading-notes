@@ -46,6 +46,7 @@ Reduced Administrative Work: RBAC can decrease the overhead of managing individu
 Auditing and Monitoring: With RBAC, auditing and monitoring become more straightforward. Organizations can quickly review and monitor the actions of users based on their roles, ensuring accountability and compliance with internal policies and external regulations.
 
 Flexibility and Scalability: As an organization grows, RBAC scales by simply adding new roles or adjusting existing roles, making it adaptable to changing business needs.
+*** 
 
 # react-cookie library
 # react-cookies component
