@@ -46,26 +46,32 @@ In both cases, if authentication is successful, we can attach the user object or
 
 ### 2-Describe the handshake necessary to implement OAuth.
 
-OAuth is a process that allows a user to grant a third-party application limited access to their resources, without sharing their credentials. Here's a basic overview of the OAuth handshake:
+OAuth is a process that allows a user to grant a third-party application limited access to their resources, without sharing their credentials. 
 
-Initiation: The user initiates the process by clicking something like "Login with Google".
-Redirect: The application redirects the user to the OAuth provider's authorization page. This page asks the user if they are willing to grant the requesting app the permissions it's asking for.
-Authorization: If the user agrees, the OAuth provider sends a one-time code to the application's registered callback URL.
-Token Exchange: The application then exchanges this one-time code for an access token by making a server-to-server request, providing its client ID, client secret, and the one-time code.
-Access Granted: With this access token, the application can make requests to access the user's resources until the token expires or is revoked by the user.
+*Here's a basic overview of the OAuth handshake:*
+
+- Initiation: The user initiates the process by clicking something like "Login with Google".
+
+- Redirect: The application redirects the user to the OAuth provider's authorization page. This page asks the user if they are willing to grant the requesting app the permissions it's asking for.
+
+- Authorization: If the user agrees, the OAuth provider sends a one-time code to the application's registered callback URL.
+
+- Token Exchange: The application then exchanges this one-time code for an access token by making a server-to-server request, providing its client ID, client secret, and the one-time code.
+
+- Access Granted: With this access token, the application can make requests to access the user's resources until the token expires or is revoked by the user.
 
 
 ### 3-Describe how Role Based Access Control works to a non-technical friend.
 
 Imagine you're at a music concert. When you enter, you get a wristband. There are different types of wristbands:
 
-General Admission: Lets you access only the main areas.
-VIP: Lets you access the main areas and the VIP lounge.
-Artist: Lets you access the main areas, VIP lounge, and backstage.
-Crew: Allows you everywhere, including on stage and technical areas.
-Role-Based Access Control (RBAC) is like those wristbands, but for computer systems. Instead of physical areas, we have parts of a system or actions you can perform. And instead of wristbands, users are assigned roles like "Admin", "Editor", or "User". Each role has specific permissions:
+- General Admission: Lets you access only the main areas.
+- VIP: Lets you access the main areas and the VIP lounge.
+- Artist: Lets you access the main areas, VIP lounge, and backstage.
+- Crew: Allows you everywhere, including on stage and technical areas.
+- Role-Based Access Control (RBAC) is like those wristbands, but for computer systems. Instead of physical areas, we have parts of a system or actions you can perform. And instead of wristbands, users are assigned roles like "Admin", "Editor", or "User". Each role has specific permissions:
 
-Admin might be able to read, edit, create, and delete data.
-Editor might be able to read, edit, and create, but not delete.
-User might only be able to read.
+- Admin might be able to read, edit, create, and delete data.
+- Editor might be able to read, edit, and create, but not delete.
+- User might only be able to read.
 When a user tries to do something, the system checks their "wristband" (role) to see if they're allowed. If they have the right role, they're in; if not, they're denied access. This way, we ensure everyone can only do what they're supposed to.
