@@ -1,8 +1,6 @@
 # Review API Server Build
 ### 1-Explain the different between a query string parameter and a path parameter.
 
-1-Difference between a query string parameter and a path parameter:
-
 A query string parameter and a path parameter are both methods of sending data in an HTTP request, but they have different structures and purposes:
 
 Path Parameter: It is part of the actual URL path. Typically used to identify a specific resource or a set of resources. They are embedded in the URL. For example, in the URL http://amazingapi.com/api/v1/products/12345, 12345 is a path parameter that likely identifies a unique product.
