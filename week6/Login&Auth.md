@@ -66,9 +66,8 @@ react-cookie features:
 - Universal cookie: This library also supports universal cookies, which are useful for SSR scenarios where you want consistent cookie behavior between the client and the server.
 
 ### 2-Describe some react-cookies features.
-react-cookies features:
 
-- react-cookies is another popular library for managing cookies in React applications. Its features include:
+react-cookies is another popular library for managing cookies in React applications. Its features include:
 
 - Simple API: Provides utility functions like load(), save(), and remove() for easy cookie operations.
 
