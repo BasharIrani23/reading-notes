@@ -23,6 +23,7 @@ Update: Can renew borrowed books.
 Delete: Typically, members don't have deletion rights in this context.
 
 Guest:
+
 Create: No creation rights.
 Read: Can view the list of books but not their detailed status.
 Update: No update rights.
