@@ -6,11 +6,11 @@ A store in Redux is a container that holds the entire application state. Reducer
 
 - getState(): Returns the current state stored in the Redux store.
 
-- 
+ 
   
 - dispatch(action): Dispatches an action to trigger a state change.
 
-- 
+ 
   
 - subscribe(listener): Adds a listener function that will be called whenever the state in the store is updated.
 
