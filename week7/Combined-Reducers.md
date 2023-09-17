@@ -14,7 +14,8 @@ Use combineReducers from the Redux library. It allows you to merge multiple redu
 - How: By never directly modifying the state. Instead, always return a new copy of the state with any changes. Common utilities include the spread operator (...), Object.assign(), or libraries like Immutable.js.
 - Why: Ensures predictability, traceability, and helps with debugging and optimization (e.g., with PureComponent and memoization). Immutable state changes also allow for time-travel debugging and consistent behavior in your application.
 
-
+*** 
+# Redux Docs: Using Combined Reducers
 ### 1- combineReducers is a utility function to simplify the most common use case when writing ___ _____ *Redux reducers* 
 
 Explain how combineReducers assembles the new state tree.
@@ -23,8 +24,7 @@ Explain how combineReducers assembles the new state tree.
 
 Answer: combineReducers takes an object where each key corresponds to a specific "slice" of the state, and each value is a reducer function responsible for managing that slice. When an action is dispatched, combineReducers calls each of these slice reducers with the current slice of state and the dispatched action. Each slice reducer returns a new state (or the existing state if no changes are necessary). combineReducers then combines these slices into a single state object, which becomes the new state of the store.
 
-*** 
-# Redux Docs: Using Combined Reducers
+
 
 
 ### 3-How would you define initial state in an app using combineReducers?
