@@ -21,7 +21,9 @@ createSlice() is used to automatically generate a slice of the Redux store, alon
 You provide an object of reducer functions, a slice name, and an initial state value.
 The function will then automatically generate a slice reducer, corresponding action creators, and action types.
 ***
+
 # MobX
+
 
 ### 1-What is MobX?
 MobX is a battle-tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP). It is mainly used with JavaScript and TypeScript, and it's especially popular with React applications. The primary idea behind MobX is that almost everything can be derived from the application state, automatically, using reactions that automatically update when relevant state changes.
