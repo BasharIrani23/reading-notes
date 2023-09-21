@@ -30,7 +30,7 @@ MobX enforces a clear distinction between actions that update state and computat
 ### 3-How would we build a reactive user interface?
 Building a reactive user interface with MobX generally involves the following steps:
 
-- Define Observable State: Use MobX’s observable to create reactive state variables. These variables will automatically notify any derivations (like computed values or reactions) when they change.
+-Define Observable State: Use MobX’s observable to create reactive state variables. These variables will automatically notify any derivations (like computed values or reactions) when they change.
 
 
 class TodoStore {
