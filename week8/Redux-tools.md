@@ -33,20 +33,16 @@ Building a reactive user interface with MobX generally involves the following st
 -Define Observable State: Use MobX’s observable to create reactive state variables. These variables will automatically notify any derivations (like computed values or reactions) when they change.
 
 
-class TodoStore {
-  @observable todos = [];
-}
+*class TodoStore { @observable todos = []; }*
 
 
 - Create Computations: If you have state that can be derived from other state, use computed to define it. This will create a value that automatically updates when its dependencies change.
 
-class TodoStore {
-  @observable todos = [];
+*class TodoStore {  @observable todos = [];*
   
-  @computed get unfinishedTodoCount() {
-    return this.todos.filter(todo => !todo.finished).length;
-  }
-}
+*@computed get unfinishedTodoCount() {*
+*return this.todos.filter(todo => !todo.finished).length;*
+  
   
 - Build React Components: If using React, components can react to state changes by marking them with the observer function/decorator from mobx-react. This makes the component re-render whenever observable state it relies on changes.
 
