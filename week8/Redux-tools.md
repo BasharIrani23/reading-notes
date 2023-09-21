@@ -30,17 +30,16 @@ MobX enforces a clear distinction between actions that update state and computat
 ### 3-How would we build a reactive user interface?
 Building a reactive user interface with MobX generally involves the following steps:
 
-Define Observable State: Use MobX’s observable to create reactive state variables. These variables will automatically notify any derivations (like computed values or reactions) when they change.
+- Define Observable State: Use MobX’s observable to create reactive state variables. These variables will automatically notify any derivations (like computed values or reactions) when they change.
 
-javascript
-Copy code
+
 class TodoStore {
   @observable todos = [];
 }
-Create Computations: If you have state that can be derived from other state, use computed to define it. This will create a value that automatically updates when its dependencies change.
 
-javascript
-Copy code
+
+- Create Computations: If you have state that can be derived from other state, use computed to define it. This will create a value that automatically updates when its dependencies change.
+
 class TodoStore {
   @observable todos = [];
   
@@ -48,10 +47,9 @@ class TodoStore {
     return this.todos.filter(todo => !todo.finished).length;
   }
 }
-Build React Components: If using React, components can react to state changes by marking them with the observer function/decorator from mobx-react. This makes the component re-render whenever observable state it relies on changes.
+  
+- Build React Components: If using React, components can react to state changes by marking them with the observer function/decorator from mobx-react. This makes the component re-render whenever observable state it relies on changes.
 
-javascript
-Copy code
 import { observer } from 'mobx-react';
 
 const TodoListView = observer(({ todoStore }) => (
@@ -59,10 +57,11 @@ const TodoListView = observer(({ todoStore }) => (
     {todoStore.todos.map(todo => <div key={todo.id}>{todo.text}</div>)}
   </div>
 ));
-Update State with Actions: State should be modified using actions. This makes state changes more predictable and structured.
 
-javascript
-Copy code
+
+- Update State with Actions: State should be modified using actions. This makes state changes more predictable and structured.
+
+
 class TodoStore {
   @observable todos = [];
 
@@ -70,4 +69,5 @@ class TodoStore {
     this.todos.push({ id: Date.now(), text: text, finished: false });
   }
 }
-React to State Changes: You can use MobX’s autorun, when, or reaction to create side effects that run in response to state changes. For instance, you could save to local storage whenever a particular piece of state changes.
+
+- React to State Changes: You can use MobX’s autorun, when, or reaction to create side effects that run in response to state changes. For instance, you could save to local storage whenever a particular piece of state changes.
